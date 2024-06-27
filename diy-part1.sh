@@ -21,3 +21,4 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.con
 #git clone -b main https://github.com/fw876/helloworld.git package/lean/helloworld
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+git clone https://github.com/yaof2/luci-app-ikoolproxy.git package/lean/uci-app-ikoolproxy
